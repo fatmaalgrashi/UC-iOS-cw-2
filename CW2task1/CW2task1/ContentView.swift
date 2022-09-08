@@ -26,6 +26,9 @@ struct ContentView: View {
                 .onTapGesture {
                     imageName = "Android_robot"
                 }
+                .onLongPressGesture{
+                    imageName = "question"
+                }
             Text("IOS")
                 .padding()
                 .frame(width: 200, height: 50)
@@ -33,6 +36,9 @@ struct ContentView: View {
                 .cornerRadius(15)
                 .onTapGesture {
                     imageName = "ios"
+                }
+                .onLongPressGesture{
+                    imageName = "question"
                 }
             Text("web")
                 .frame(width: 200, height: 50)
@@ -42,6 +48,9 @@ struct ContentView: View {
                 .onTapGesture {
                     imageName = "vscode"
                 }
+                .onLongPressGesture{
+                    imageName = "question"
+                }
             Text("game dev")
                 .frame(width: 200, height: 50)
                 .background(.purple)
@@ -49,6 +58,9 @@ struct ContentView: View {
                 .padding()
                 .onTapGesture {
                     imageName = "unity"
+                }
+                .onLongPressGesture{
+                    imageName = "question"
                 }
         }
        

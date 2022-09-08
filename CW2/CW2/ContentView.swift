@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State var dinar = "0"
+    @State var dinar = ""
     @State var usd = 0.0
     
     
