@@ -11,7 +11,7 @@ import SwiftUI
 struct CW2App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView(dinar: Int())
+            ContentView(dinar: String())
          
         }
     }
